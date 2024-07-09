@@ -1,9 +1,9 @@
 ## CONDITIONAL FILTERS ON SURVEY WITH SVYBY FUNCTION
 ##### NAMES CONTAINERS
-source("SOURCE/SELECTORS/names-filters2.R")
+source("SELECTORS/names-filters2.R")
 
 ## CONVERSION TO FACTORIAL, TREATMENT, AND DEBT RATIOS DEFINITIONS
-source("SOURCE/SELECTORS/EFF_treatment.R")
+source("SELECTORS/EFF_treatment.R")
 
 ############### DEFINE SURVEY OBJECT
 survey_weights <- as.svydesign2(svydesign(

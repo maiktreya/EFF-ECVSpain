@@ -4,7 +4,7 @@
 library("magrittr")
 library("data.table")
 library("survey")
-c("SOURCE/LIBRARY/my_functions.R", "SOURCE/LIBRARY/widgets.R") %>% sapply(source)
+c("LIBRARY/my_functions.R", "LIBRARY/widgets.R") %>% sapply(source)
 
 ## GLOBAL VARIABLES DECLARATION
 start_time <- Sys.time()
@@ -22,7 +22,7 @@ for (reduced in c(TRUE, FALSE)) {
         full_mean <- paste0("DATASETS/FAST_EFF/", sel_year, "-EFF.microdat.csv") %>% fread()
 
         ## PERFORM ANALYSIS
-        source("SOURCE/GENERATORS/EFF-OUT_full.R") # nolint
+        source("GENERATORS/EFF-OUT_full.R") # nolint
 
         ## CLEAN MEMORY OF INNECESARY VARIABLES
         if (sel_year != 2020) rm(list = setdiff(ls(), saved_vars))

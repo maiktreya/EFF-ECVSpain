@@ -1,5 +1,5 @@
 path <- paste0("DATASETS/EFF/DATA/EFF_", sel_year, "/")
-source("SOURCE/SELECTORS/data_selectors.R")
+source("SELECTORS/data_selectors.R")
 ##### SELECTED VARIABLES IDS ANDcolnames
 full_selection <- sapply(paste0(path, selectors_eff_no_sec6), haven::read_dta)
 full_selection %>% data.table()
@@ -366,7 +366,7 @@ if (sel_year == 2017) {
 if (sel_year == 2020) {
     colnames(main_mean)[colnames(main_mean) == "renthog19_eur20"] <- "renthog"
 }
-source("SOURCE/SELECTORS/data_selectors.R")
+source("SELECTORS/data_selectors.R")
 
 main_mean <- cbind(main_mean, full_mean)
 survey_weights <- as.svydesign2(svydesign(

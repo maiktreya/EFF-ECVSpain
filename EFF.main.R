@@ -4,7 +4,7 @@
 library("magrittr")
 library("data.table")
 library("survey")
-c("SOURCE/LIBRARY/my_functions.R", "SOURCE/LIBRARY/widgets.R") %>% sapply(source)
+c("LIBRARY/my_functions.R", "LIBRARY/widgets.R") %>% sapply(source)
 
 ## GLOBAL VARIABLES DECLARATION
 start_time <- Sys.time()
@@ -24,9 +24,9 @@ for (reduced in c(FALSE, TRUE)) {
         full_mean <- paste0("DATASETS/FAST_EFF/", sel_year, "-EFF.microdat.csv") %>% fread()
 
         ## PERFORM ANALYSIS
-        source("SOURCE/TRANSFORMERS/EFF-OUT_main.R") # GENERAL MEANS
-        source("SOURCE/TRANSFORMERS/EFF-OUT_filters.R") # FILTERS BY USE AND ORIGIN OF PROPERTY
-        source("SOURCE/TRANSFORMERS/EFF-OUT_filters2.R") # FILTERS BY CLASS AND AGE
+        source("TRANSFORMERS/EFF-OUT_main.R") # GENERAL MEANS
+        source("TRANSFORMERS/EFF-OUT_filters.R") # FILTERS BY USE AND ORIGIN OF PROPERTY
+        source("TRANSFORMERS/EFF-OUT_filters2.R") # FILTERS BY CLASS AND AGE
 
         ## CLEAN MEMORY OF INNECESARY VARIABLES
         if (sel_year != 2020) rm(list = setdiff(ls(), saved_vars))

@@ -3,7 +3,7 @@ quantile_cuts <- c(.5, .75, .8, .9, .95, .99, .999)
 alt_results_year <- alt_percents <- list()
 alt_medians <- data.table()
 
-source("SOURCE/GENERATORS/SELECTORS/EFF_treatment.R")
+source("GENERATORS/SELECTORS/EFF_treatment.R")
 # IMPORT AND DEFINE THE SURVEY OBJECT
 survey_weights <- as.svydesign2(svydesign(
         ids = ~1,
