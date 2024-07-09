@@ -1,0 +1,309 @@
+"";"V1";"V2"
+"1";"DB095";NA
+"2";"RB060";NA
+"3";"RB062";NA
+"4";"RB063";NA
+"5";"RB064";NA
+"6";"PB050";NA
+"7";"DB010";NA
+"8";"DB020";NA
+"9";"DB030";NA
+"10";"DB040";NA
+"11";"DB040_F";"Región"
+"12";"DB060";"Unidad primaria de muestreo (sección censal anonimizada)"
+"13";"DB060_F";"Unidad primaria de muestreo (sección censal anonimizada)"
+"14";"DB075";NA
+"15";"DB075_F";NA
+"16";"DB095";NA
+"17";"DB095_F";NA
+"18";"DB100";"Grado de urbanización"
+"19";"DB100_F";"Grado de urbanización"
+"20";"RB010";NA
+"21";"RB020";NA
+"22";"RB030";NA
+"23";"RB040";NA
+"24";"RB060";NA
+"25";"RB060_F";NA
+"26";"RB062";NA
+"27";"RB062_F";NA
+"28";"RB063";NA
+"29";"RB063_F";NA
+"30";"RB064";NA
+"31";"RB064_F";NA
+"32";"RB100";NA
+"33";"RB070";NA
+"34";"RB080";NA
+"35";"RB090";NA
+"36";"RB110";NA
+"37";"RB120";NA
+"38";"RB120_F";NA
+"39";"RB140";NA
+"40";"RB140_F";NA
+"41";"RB150";NA
+"42";"RB150_F";NA
+"43";"RB160";NA
+"44";"RB160_F";NA
+"45";"RB170";NA
+"46";"RB170_F";NA
+"47";"RB180";NA
+"48";"RB180_F";NA
+"49";"RB190";NA
+"50";"RB190_F";NA
+"51";"RB200";NA
+"52";"RB200_F";NA
+"53";"RB210";NA
+"54";"RB210_F";NA
+"55";"RB220";NA
+"56";"RB220_F";NA
+"57";"RB230";NA
+"58";"RB230_F";NA
+"59";"RB240";NA
+"60";"RB240_F";NA
+"61";"HB010";"Año de la encuesta"
+"62";"HB020";"País"
+"63";"HB030";"Identificación del Hogar"
+"64";"HB050";"Mes de la entrevista  al hogar"
+"65";"HB050_F";"Mes de la entrevista  al hogar"
+"66";"HB060";"Año de la entrevista  al hogar"
+"67";"HB070";"Identificación personal del informante del cuestionario sobre el hogar"
+"68";"HB070_F";"Identificación personal del informante del cuestionario sobre el hogar"
+"69";"HB080";"Identificación de la primera persona responsable de la"
+"70";"HB080_F";"Identificación de la primera persona responsable de la"
+"71";"HB090";"Identificación de la segunda persona responsable de la"
+"72";"HB090_F";"Identificación de la segunda persona responsable de la"
+"73";"HB100";"Numero de minutos empleados en cumplimentar el"
+"74";"HB100_F";"Numero de minutos empleados en cumplimentar el"
+"75";"HY020";"Renta disponible total del hogar en año anterior al"
+"76";"HY020_F";"Renta disponible total del hogar en año anterior al"
+"77";"HY022";" Renta disponible total del hogar antes de transferencias sociales excepto prestaciones por jubilación y por supervivencia en el año anterior al de encuesta"
+"78";"HY022_F";" Renta disponible total del hogar antes de transferencias sociales excepto prestaciones por jubilación y por supervivencia en el año anterior al de encuesta"
+"79";"HY023";" Renta disponible total del hogar antes de transferencias sociales incluidas prestaciones por jubilación y por supervivencia en el año anterior al de encuesta"
+"80";"HY023_F";" Renta disponible total del hogar antes de transferencias sociales incluidas prestaciones por jubilación y por supervivencia en el año anterior al de encuesta"
+"81";"HY030N";"Alquiler imputado"
+"82";"HY030N_F";"Alquiler imputado"
+"83";"HY040N";"Renta neta procedente del alquiler de una propiedad o terreno en el año anterior al de encuesta"
+"84";"HY040N_F";"Renta neta procedente del alquiler de una propiedad o terreno en el año anterior al de encuesta"
+"85";"HY050N";"Ayuda por familia/hijos en el año anterior al de encuesta"
+"86";"HY050N_F";"Ayuda por familia/hijos en el año anterior al de encuesta"
+"87";"HY060N";"Ingresos por asistencia social en el año anterior al de encuesta"
+"88";"HY060N_F";"Ingresos por asistencia social en el año anterior al de encuesta"
+"89";"HY070N";"Ayuda para vivienda en el año anterior al de la encuesta"
+"90";"HY070N_F";"Ayuda para vivienda en el año anterior al de la encuesta"
+"91";"HY080N";"Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de la encuesta"
+"92";"HY080N_F";"Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de la encuesta"
+"93";"HY090N";"Intereses, dividendos y ganancias netos de inversiones de capital en empresas no constituidas en sociedad en el año anterior al de encuesta"
+"94";"HY090N_F";"Intereses, dividendos y ganancias netos de inversiones de capital en empresas no constituidas en sociedad en el año anterior al de encuesta"
+"95";"HY100N";"Intereses pagados del préstamo para la compra de la vivienda principal, en el año anterior al de encuesta"
+"96";"HY100N_F";"Intereses pagados del préstamo para la compra de la vivienda principal, en el año anterior al de encuesta"
+"97";"HY110N";"Renta neta percibida por los menores de 16 años en el año anterior al de la encuesta"
+"98";"HY110N_F";"Renta neta percibida por los menores de 16 años en el año anterior al de la encuesta"
+"99";"HY120N";"Impuesto sobre el patrimonio en el año anterior al de la encuesta"
+"100";"HY120N_F";"Impuesto sobre el patrimonio en el año anterior al de la encuesta"
+"101";"HY130N";"Transferencias periódicas monetarias abonadas a otros  hogares en el año anterior al de la encuesta"
+"102";"HY130N_F";"Transferencias periódicas monetarias abonadas a otros  hogares en el año anterior al de la encuesta"
+"103";"HY145N";"Devoluciones/ingresos complementarios por ajustes"
+"104";"HY145N_F";"Devoluciones/ingresos complementarios por ajustes"
+"105";"HY170N";"9.2Autoconsumo en el año anterior al de la encuesta"
+"106";"HY170N_F";"9.2Autoconsumo en el año anterior al de la encuesta"
+"107";"HY010";"Renta bruta total del hogar en el año anterior al de la encuesta (nota: esta variable contiene las rentas percibidas de esquemas privados de pensiones)"
+"108";"HY010_F";"Renta bruta total del hogar en el año anterior al de la encuesta (nota: esta variable contiene las rentas percibidas de esquemas privados de pensiones)"
+"109";"HY040G";"Renta bruta procedente del alquiler de una propiedad o terreno en el año anterior al de la encuesta"
+"110";"HY040G_F";"Renta bruta procedente del alquiler de una propiedad o terreno en el año anterior al de la encuesta"
+"111";"HY050G";"Ayuda por familia/hijos en el año anterior al de la"
+"112";"HY050G_F";"Ayuda por familia/hijos en el año anterior al de la"
+"113";"HY060G";"Ingresos por asistencia social en el año anterior"
+"114";"HY060G_F";"Ingresos por asistencia social en el año anterior"
+"115";"HY070G";"Ayuda para vivienda en el año anterior al de la"
+"116";"HY070G_F";"Ayuda para vivienda en el año anterior al de la"
+"117";"HY080G";"Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de encuesta"
+"118";"HY080G_F";"Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de encuesta"
+"119";"HY090G";"Intereses, dividendos y ganancias brutos de inversiones de capital en empresas no constituidas en sociedad en el año anterior al de encuesta"
+"120";"HY090G_F";"Intereses, dividendos y ganancias brutos de inversiones de capital en empresas no constituidas en sociedad en el año anterior al de encuesta"
+"121";"HY100G";"Intereses pagados del préstamo para la compra de la vivienda principal, en el año anterior al de encuesta"
+"122";"HY100G_F";"Intereses pagados del préstamo para la compra de la vivienda principal, en el año anterior al de encuesta"
+"123";"HY110G";"Renta bruta percibida por los menores de 16 años en el"
+"124";"HY110G_F";"Renta bruta percibida por los menores de 16 años en el"
+"125";"HY120G";"Impuesto sobre el patrimonio en el año anterior al de encuesta"
+"126";"HY120G_F";"Impuesto sobre el patrimonio en el año anterior al de encuesta"
+"127";"HY130G";" Transferencias periódicas monetarias abonadas a otros  hogares en el año anterior al de encuesta"
+"128";"HY130G_F";" Transferencias periódicas monetarias abonadas a otros  hogares en el año anterior al de encuesta"
+"129";"HY140G";" Impuesto sobre la renta y cotizaciones sociales"
+"130";"HY140G_F";" Impuesto sobre la renta y cotizaciones sociales"
+"131";"HS011";"¿Se han producido retrasos en el pago de la hipoteca o"
+"132";"HS011_F";"¿Se han producido retrasos en el pago de la hipoteca o"
+"133";"HS021";"¿Se han producido retrasos en el pago de las"
+"134";"HS021_F";"¿Se han producido retrasos en el pago de las"
+"135";"HS031";"¿Se han producido retrasos en el pago de compras"
+"136";"HS031_F";"¿Se han producido retrasos en el pago de compras"
+"137";"HS040";"¿Puede el hogar permitirse pagar unas vacaciones fuera de casa, al menos una semana al año?"
+"138";"HS050";"¿Puede el hogar permitirse una comida de carne, pollo o pescado (o equivalentes para los vegetarianos) al menos cada dos días?"
+"139";"HS060";"¿Tiene el hogar capacidad para afrontar gastos"
+"140";"HS070";"¿Tiene el hogar teléfono (incluido móvil)?"
+"141";"HS070_F";"¿Tiene el hogar teléfono (incluido móvil)?"
+"142";"HS080";"¿Tiene el hogar televisión en color?"
+"143";"HS080_F";"¿Tiene el hogar televisión en color?"
+"144";"HS090";"¿Tiene el hogar ordenador?"
+"145";"HS090_F";"¿Tiene el hogar ordenador?"
+"146";"HS100";"¿Tiene el hogar lavadora?"
+"147";"HS100_F";"¿Tiene el hogar lavadora?"
+"148";"HS110";"¿Tiene el hogar coche?"
+"149";"HS110_F";"¿Tiene el hogar coche?"
+"150";"HS120";"Capacidad del hogar para llegar a fin de mes"
+"151";"HS120_F";"Capacidad del hogar para llegar a fin de mes"
+"152";"HS130";"Ingresos mínimos para llegar a final de mes"
+"153";"HS130_F";"Ingresos mínimos para llegar a final de mes"
+"154";"HS140";"Los gastos totales de la vivienda (incluyendo seguros, electricidad, comunidad, etc.) suponen para el hogar:"
+"155";"HS140_F";"Los gastos totales de la vivienda (incluyendo seguros, electricidad, comunidad, etc.) suponen para el hogar:"
+"156";"HS150";"Los desembolsos por compras a plazos o por devolución  de préstamos no relacionados con la vivienda"
+"157";"HS150_F";"Los desembolsos por compras a plazos o por devolución  de préstamos no relacionados con la vivienda"
+"158";"HH010";"Tipo de vivienda"
+"159";"HH010_F";"Tipo de vivienda"
+"160";"HH020";NA
+"161";"HH020_F";NA
+"162";"HH021";"Régimen de tenencia"
+"163";"HH021_F";"Régimen de tenencia"
+"164";"HH030";"Numero de habitaciones de la vivienda"
+"165";"HH030_F";"Numero de habitaciones de la vivienda"
+"166";"HH031";"Año del contrato o de la compra o de instalación"
+"167";"HH031";"Año del contrato o de la compra o de instalación"
+"168";"HH040";"¿Tiene la vivienda problema de goteras, humedades"
+"169";"HH050";"¿Puede el hogar permitirse mantener la vivienda"
+"170";"HH060";"Alquiler actual por la vivienda ocupada"
+"171";"HH060_F";"Alquiler actual por la vivienda ocupada"
+"172";"HH061";"¿Cuál cree usted que sería el importe mensual que"
+"173";"HH061_F";"¿Cuál cree usted que sería el importe mensual que"
+"174";"HH070";"Gastos de la vivienda: Alquiler (si la vivienda se encuentra en régimen de alquiler), intereses de la hipoteca (para viviendas en propiedad con pagos pendientes) y otros gastos asociados (comunidad, agua, electricidad, gas, etc.)"
+"175";"HH070_F";"Gastos de la vivienda: Alquiler (si la vivienda se encuentra en régimen de alquiler), intereses de la hipoteca (para viviendas en propiedad con pagos pendientes) y otros gastos asociados (comunidad, agua, electricidad, gas, etc.)"
+"176";"HH081";"¿Dispone la vivienda de bañera o ducha?"
+"177";"HH091";"¿Dispone de inodoro con agua corriente en el interior de la vivienda?"
+"178";"PB010";NA
+"179";"PB020";NA
+"180";"PB030";NA
+"181";"PB050";NA
+"182";"PB050_F";NA
+"183";"PB100";NA
+"184";"PB100_F";NA
+"185";"PB110";NA
+"186";"PB110_F";NA
+"187";"PB120";NA
+"188";"PB120_F";NA
+"189";"PB130";NA
+"190";"PB130_F";NA
+"191";"PB140";NA
+"192";"PB140_F";NA
+"193";"PB150";NA
+"194";"PB150_F";NA
+"195";"PB160";NA
+"196";"PB160_F";NA
+"197";"PB170";NA
+"198";"PB170_F";NA
+"199";"PB180";NA
+"200";"PB180_F";NA
+"201";"PB190";NA
+"202";"PB200";NA
+"203";"PB200_F";NA
+"204";"PE040";NA
+"205";"PE040_F";NA
+"206";"PL031";NA
+"207";"PL031_F";NA
+"208";"PL020";NA
+"209";"PL020_F";NA
+"210";"PL025";NA
+"211";"PL025_F";NA
+"212";"PL040";NA
+"213";"PL040_F";NA
+"214";"PL051";NA
+"215";"PL051_F";NA
+"216";"PL060";NA
+"217";"PL060_F";NA
+"218";"PL140";NA
+"219";"PL140_F";NA
+"220";"PL160  ";NA
+"221";"PL160_F";NA
+"222";"PL170";NA
+"223";"PL170_F";NA
+"224";"PL180";NA
+"225";"PL180_F";NA
+"226";"PL190";NA
+"227";"PL190_F";NA
+"228";"PL200";NA
+"229";"PL200_F";NA
+"230";"PL211A";NA
+"231";"PL211A_F";NA
+"232";"PL211B";NA
+"233";"PL211B_F";NA
+"234";"PL211C";NA
+"235";"PL211C_F";NA
+"236";"PL211D";NA
+"237";"PL211D_F";NA
+"238";"PL211E";NA
+"239";"PL211E_F";NA
+"240";"PL211F";NA
+"241";"PL211F_F";NA
+"242";"PL211G";NA
+"243";"PL211G_F";NA
+"244";"PL211H";NA
+"245";"PL211H_F";NA
+"246";"PL211I";NA
+"247";"PL211I_F";NA
+"248";"PL211J";NA
+"249";"PL211J_F";NA
+"250";"PL211K";NA
+"251";"PL211K_F";NA
+"252";"PL211L";NA
+"253";"PL211L_F";NA
+"254";"PH010";NA
+"255";"PH010_F";NA
+"256";"PH020";NA
+"257";"PH020_F";NA
+"258";"PH030";NA
+"259";"PH030_F";NA
+"260";"PY010N";NA
+"261";"PY010N_F";NA
+"262";"PY020N";NA
+"263";"PY021N";NA
+"264";"PY021N_F";NA
+"265";"PY035N";NA
+"266";"PY035N_F";NA
+"267";"PY050N";NA
+"268";"PY050N_F";NA
+"269";"PY080N";NA
+"270";"PY080N_F";NA
+"271";"PY090N";NA
+"272";"PY090N_F";NA
+"273";"PY100N";NA
+"274";"PY100N_F";NA
+"275";"PY110N";NA
+"276";"PY110N_F";NA
+"277";"PY120N";NA
+"278";"PY120N_F";NA
+"279";"PY130N";NA
+"280";"PY130N_F";NA
+"281";"PY140N";NA
+"282";"PY140N_F";NA
+"283";"PY010G";NA
+"284";"PY010G_F";NA
+"285";"PY020G";NA
+"286";"PY020G_F";NA
+"287";"PY021G";NA
+"288";"PY021G_F";NA
+"289";"PY030G";NA
+"290";"PY030G_F";NA
+"291";"PY035G";NA
+"292";"PY035G_F";NA
+"293";"PY050G";NA
+"294";"PY050G_F";NA
+"295";"PY080G";NA
+"296";"PY080G_F";NA
+"297";"PY090G";NA
+"298";"PY090G_F";NA
+"299";"PY100G";NA
+"300";"PY100G_F";NA
+"301";"PY110G";NA
+"302";"PY110G_F";NA
+"303";"PY120G";NA
+"304";"PY120G_F";NA
+"305";"PY130G";NA
+"306";"PY130G_F";NA
+"307";"PY140G";NA
+"308";"PY140G_F";NA

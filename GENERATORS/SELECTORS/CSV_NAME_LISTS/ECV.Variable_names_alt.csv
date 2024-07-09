@@ -1,0 +1,448 @@
+"CODE","VAR"
+DB010,Año de la encuesta
+DB020,País
+DB030,Identificación transversal del hogar
+DB040,Región
+DB040_F, No consta -1
+DB060,Unidad primaria de muestreo (sección censal
+DB060_F,  No disponible -2
+DB090,Factor transversal del hogar
+DB090_F, Variable completada  1
+DB100,Grado de urbanización
+DB100_F,  Variable completada 1
+RB010,Año de la encuesta
+RB020,País
+RB030,Identificador transversal de la persona
+RB050,Factor de ponderación transversal
+RB050_F, No consta -1
+RB070,Mes de nacimiento
+RB070_F, No consta -1
+RB080,Año de nacimiento
+RB080_F, No consta -1
+RB090,Sexo
+RB090_F, No consta -1
+RB200,Situación respecto a la residencia en el hogar
+RB200_F, No consta -1
+RB210,¿Cual de las siguientes fue su situación en la
+RB210_F, No consta -1
+RB220,Identificador del padre
+RB220_F, El padre no es miembro del hogar o no tiene padre -2
+RB230,Identificador de la madre
+RB230_F, La madre no es miembro del hogar o no tiene madre -2
+RB240,Identificador del cónyuge o pareja
+RB240_F, No tiene cónyuge o pareja o ésta no es miembro del
+RL010,Número de horas en una semana normal que ha
+RL010_F, No aplicable (N.A.) (ya que no tiene la edad para ser
+RL020,Número de horas en una semana normal que ha sido cuidado en centros de educación obligatoria
+RL020_F, N.A. (ya que no tiene la edad para ser admitida
+RL030,Número de horas en una semana normal que ha
+RL030_F, N.A. (la persona no está en educación infantil ni  primaria
+RL040,Número de horas en una semana normal que ha sido
+RL040_F, N.A. (la persona tiene más de 12 años) -2
+RL050,Número de horas en una semana normal que ha sido cuidado por cuidadores profesionales remunerados en casa del niño o del cuidador (niñeras asistentas etc.)
+RL050_F, N.A. (la persona tiene más de 12 años) -2
+RL060,Número de horas en una semana normal que ha sido
+RL060_F, N.A. (la persona tiene más de 12 años) -2
+RL070,Peso transversal para los niños (para el cuidado de niños)
+RL070_F, N.A. (la persona tiene más de 12 años en el momento de la entrevista) -2
+vrEU2020,Personas en riesgo de pobreza o exclusión social (estrategia Europa 2020). Son los que están en alguna de estas situaciones:
+HB010,Año de la encuesta
+HB020,País
+HB030,Identificación transversal del hogar
+HB050,Mes de la entrevista  al hogar
+HB050_F, No consta -1
+HB060,Año de la entrevista  al hogar
+HB060_F, Variable completada 1
+HB070,Identificación personal del informante del    cuestionario sobre el hogar
+HB070_F, No consta -1
+HB080,Identificación de la primera persona responsable de
+HB080_F, No consta -1
+HB090,Identificación de la segunda persona responsable de
+HB090_F, No aplicable (N.A.) (No hay 2º responsable) -2
+HB100,Numero de minutos empleados en cumplimentar el
+HB100_F, No consta -1
+HY020,Renta disponible total del hogar en el año anterior al de encuesta (nota: esta variable contiene las rentas percibidas de esquemas privados de pensiones)
+HY020_F, 6 No consta -1
+HY022,112  Renta disponible total del hogar antes de transferencias sociales excepto prestaciones por jubilación y por supervivencia en el año anterior al de encuesta
+HY022_F,  6 No consta -1
+HY023,112 Renta disponible total del hogar antes de transferencias sociales incluidas prestaciones por jubilación y por supervivencia en el año anterior al de encuesta
+HY023_F, 6 No consta -1
+HY030N: l                                                           ,Alquiler imputado (El alquiler imputado se aplica a los hogares que no pagan un alquiler completo por ser propietarios o por ocupar una vivienda alquilada a un precio inferior al de mercado o a título gratuito. El valor que se imputa es el equivalente al alquiler que se pagaría en el mercado por una vivienda similar a la ocupada menos cualquier alquiler realmente abonado). Valor anua
+HY030N_F,2 No consta -1
+HY040N, Renta neta procedente del alquiler de una propiedad o terreno en el año anterior al de encuesta
+HY040N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY050N,112  Ayuda por familia/hijos en el año anterior al de la enc.
+HY050N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY060N, Ingresos por asistencia social en el año anterior al de encuesta
+HY060N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY070N, Ayuda para vivienda en el año anterior al de
+HY070N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY080N, Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de encuesta
+HY080N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY081N, Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de encuesta (pensiones alimenticias a hijos o compensatorias a cónyuges)
+HY081N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY090N,  Intereses dividendos y ganancias netos de inversiones  de capital en empresas no constituidas en sociedad en el año anterior al de encuesta
+HY090N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY100N, Intereses pagados del préstamo para la compra de la vivienda principal en el año anterior al de encuesta
+HY100N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY110N,112 Renta neta percibida por los menores de 16 años en
+HY110N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY120N,112 Impuesto sobre el patrimonio en el año anterior al
+HY120N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY130N,112 Transferencias periódicas monetarias abonadas a otros  hogares en el año anterior al de encuesta
+HY130N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY131N,112 Transferencias periódicas monetarias abonadas a otros  hogares en el año anterior al de encuesta (pensiones alimenticias a hijos o compensatorias a cónyuges)
+HY131N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY145N,112 Devoluciones/ingresos complementarios por ajustes
+HY145N_F,6 No cumplimentado: variable bruta cumplimentada -5
+HY170N,112 Autoconsumo en el año anterior al de encuesta
+HY170N_F,No cumplimentado: variable bruta cumplimentada -5
+HY010,Renta bruta total del hogar en el año anterior al de encuesta
+HY010_F, 6 No cumplimentado: no se efectúa conversión a bruta -5
+HY040G, Renta bruta procedente del alquiler de una propiedad o terreno en el año anterior al de encuesta
+HY040G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY050G,112  Ayuda por familia/hijos en el año anterior al de     encuesta
+HY050G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY060G, Ingresos por asistencia social en el año anterior al
+HY060G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY070G,112  Ayuda para vivienda en el año anterior al de      encuesta
+HY070G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY080G, Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de encuesta
+HY080G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY081G, Transferencias periódicas monetarias percibidas de otros hogares en el año anterior al de encuesta (pensiones alimenticias a hijos o compensatorias a cónyuges)
+HY081G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY090G,  Intereses dividendos y ganancias brutos de inversiones  de capital en empresas no constituidas en sociedad en el año anterior al de encuesta
+HY090G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY100G, Intereses pagados del préstamo para la compra de la vivienda principal en el año anterior al de encuesta
+HY100G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY110G,112 Renta bruta percibida por los menores de 16 años
+HY110G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY120G, Impuesto sobre el patrimonio en el año anterior al
+HY120G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY130G,112 Transferencias periódicas monetarias abonadas a otros hogares en el año anterior al de encuesta
+HY130G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY131G,112 Transferencias periódicas monetarias abonadas a otros hogares en el año anterior al de encuesta (pensiones alimenticias a hijos o compensatorias a cónyuges)
+HY131G_F,6 No cumplimentado: variable neta cumplimentada -5
+HY140G,112 Impuesto sobre la renta y cotizaciones sociales
+HY140G_F,6 No cumplimentado: variable neta cumplimentada -5
+HS011, ¿Se han producido retrasos en el pago de la hipoteca o
+HS011_F, 2 N.A.(La vivienda no tiene hipoteca o la vivienda está
+HS021,¿Se han producido retrasos en el pago de las facturas
+HS021_F, N.A.(No se tienen facturas de electricidad agua
+HS031,¿Se han producido retrasos en el pago de compras
+HS031_F, N.A.(No ha realizado compras aplazadas ni tiene otros    préstamos no relacionados con la vivienda) -2
+HS040,¿Puede el hogar permitirse ir de vacaciones fuera de casa al menos una semana al año?
+HS040_F, No consta -1
+HS050,¿Puede el hogar permitirse una comida de carne pollo o pescado (o equivalentes para los vegetarianos) al menos cada dos días?
+HS050_F, No consta -1
+HS060,¿Tiene el hogar capacidad para afrontar gastos
+HS060_F, No consta -1
+HS070,¿Tiene el hogar teléfono (incluido móvil)?
+HS070_F, No consta -1
+HS080,¿Tiene el hogar televisión en color?
+HS080_F, No consta 1
+HS090,¿Tiene el hogar ordenador?
+HS090_F, No consta -1
+HS100,¿Tiene el hogar lavadora?
+HS100_F, No consta -1
+HS110,¿Tiene el hogar coche?
+HS110_F, No consta -1
+HS120,Capacidad del hogar para llegar a fin de mes
+HS120_F, No consta -1
+HS130,Ingresos mínimos para llegar a final de mes
+HS130_F, No consta -1
+HS140,1 Los gastos totales de la vivienda (incluyendo el alquiler o la hipoteca los seguros electricidad comunidad etc.) suponen para el hogar:
+HS140_F,          2   No consta -1
+HS150,Los desembolsos por compras a plazos o por devolución de préstamos no relacionados con la
+HS150_F, N.A.(No tiene pendientes pagos por compras a plazos
+HS160,1 ¿Tiene la vivienda escasez de luz natural?
+HS160_F, No consta -1
+HS170, ¿Tiene la vivienda problemas de ruidos producidos por
+HS170_F, No consta -1
+HS180,1 ¿Tiene la vivienda problemas de contaminación
+HS180_F, No consta -1
+HS190,¿Tiene la vivienda problemas de delincuencia o vandalismo en la zona?
+HS190_F, No consta -1
+HH010,1 Tipo de vivienda
+HH010_F, No consta -1
+HH021,Régimen de tenencia
+HH021_F, No consta -1
+HH030,Numero de habitaciones de la vivienda
+HH030_F, No consta -1
+HH031,Año del contrato o de la compra o de instalación
+HH031_F, No consta -1
+HH040_F, No completada 1
+HH040,¿Tiene la vivienda problema de goteras humedades
+HH050,¿Puede el hogar permitirse mantener la vivienda
+HH050_F, No consta -1
+HH060,Alquiler actual por la vivienda ocupada
+HH060_F, N.A.(HH021 ≠ 3 ó 4 (No es régimen de alquiler)) -2
+HH061,¿Cuál cree usted que sería el importe mensual que
+HH061_F, N.A. (Si HH021 ≠ 1 ó 2 ó 4 ó 5 (Si está a precio de
+HH070,Gastos de la vivienda: Alquiler (si la vivienda se encuentra en régimen de alquiler) intereses de la hipoteca (para viviendas en propiedad con pagos pendientes) y otros gastos asociados (comunidad agua electricidad gas etc.)
+HH070_F, No consta -1
+HH081,¿Dispone la vivienda de bañera o ducha?
+HH081_F, No consta -1
+HH091, 1 ¿Dispone la vivienda de inodoro con agua corriente en el interior de la vivienda?
+HH091_F, 2 No consta -1
+H39a_U, En los últimos 12 meses ¿ha tenido su hogar que acudir a familiares o amigos para que le proporcionen alimentos ropa u otros bienes básicos (o dinero para poder adquirirlos)?
+H39b0_U, En los últimos 12 meses ¿ha tenido su hogar que acudir a alguna entidad privada no lucrativa o religiosa para que le proporcione alimentos ropa u otros bienes básicos (o dinero para poder adquirirlos)?
+H38a_U, En los últimos 12 meses ¿hubo alguna ocasión en la que debido a dificultades económicas el hogar dejó de disponer de alguna de sus fuentes habituales de energía? Se debe tener en cuenta tanto el no poder comprar ningún tipo de combustible necesario para la vida diaria como el haber tenido algún corte de suministro energético. Incluya electricidad gas natural butano propano gasóleo fuel-oil carbón madera turba etc.
+CUOTAHIP,5 Cuota hipotecaria mensual (importe del último recibo mensual del préstamo solicitado para la compra de la vivienda principal). Incluye amortización e intereses
+HX040,Número de miembros del hogar
+HX060,2 Tipo de hogar (*)
+HX240,31 Unidades de consumo. Escala OCDE
+vhRentaa,Renta disponible total del hogar en el año anterior al de la entrevista (nota: esta variable contiene las rentas percibidas de esquemas privados de pensiones). Variable utilizada en los indicadores armonizados de pobreza
+vhRentaaAI, Renta disponible total del hogar en el año anterior al de la entrevista incluyendo el alquiler imputado (nota: esta variable contiene las rentas percibidas de esquemas privados de pensiones)
+vhPobreza,Hogar en riesgo de pobreza. Umbral de pobreza: es el 60% de la mediana de los ingresos anuales -vhRentaa- por unidad de consumo (escala OCDE modificada) tomando la distribución de personas. Los ingresos por unidad de consumo se obtienen dividiendo los ingresos totales del hogar entre el número de unidades de consumo.
+vhMATDEP,Hogar en carencia material severa. Son los hogares con carencia en al menos cuatro conceptos de una lista de nueve. Los conceptos considerados son:
+HD080,  ¿El hogar podría sustituir los muebles estropeados
+HD080_F, 2 No consta -1
+HI010T,  ¿Se ha producido un cambio en los ingresos del
+HI010T_F,2 No consta -1
+HI020T,  ¿Cuál ha sido el motivo principal del aumento de
+HI020T_F,2 No aplicable (HI010≠1) -2
+HI030T,  ¿Cuál ha sido el motivo principal de la disminución
+HI030T_F,2 No aplicable (HI010≠3) -2
+HI040T,  Pensando en los ingresos de su hogar ¿qué espera
+HI040T_F,2 No consta -1
+PB010,Año de la encuesta
+PB020,País
+PB030,8 Identificación transversal de la persona
+PB040, Factor de ponderación personal transversal (todos los miembros del hogar de 16 años o más)
+PB040_F, 1 Variable completada 1
+PB100,Mes de la entrevista
+PB100_F, No consta -1
+PB110,4 Año de la entrevista
+PB110_F, No consta -1
+PB120,2 Número de minutos empleados en cumplimentar el cuestionario
+PB120_F, 2 No consta -1
+PB130,Mes de nacimiento
+PB130_F, 2 No consta -1
+PB140,4 Año de nacimiento
+PB140_F, No consta -1
+PB150,1 Sexo
+PB150_F, 2 No consta -1
+PB160,8 Identificación del padre
+PB160_F, 2 El padre no es miembro del hogar o no tiene padre -2
+PB170,8 Identificación de la madre
+PB170_F, La madre no es miembro del hogar o no tiene madre -2
+PB180,8 Identificación del cónyuge/pareja
+PB180_F, 2 No tiene cónyuge o pareja o ésta no es
+PB190,1 Estado civil
+PB190_F, 2 No consta -1
+PB200,1 Cónyuge o pareja de hecho
+PB200_F, 2 No consta -1
+PB210,1 País de nacimiento
+PB210_F, No consta -1
+PB220A, 1 Nacionalidad
+PB220A_F,No consta -1
+PE010, 1 ¿Está cursando actualmente algún tipo de estudios
+PE010_F, No consta -1
+PE020,Nivel de los estudios que está realizando
+PE020_F, N.A.(Si PE010 ≠ 1) -2
+PE030,Año en que se consiguió el nivel más elevado de educación
+PE030_F, N.A.(Si PE040 = 000) -2
+PE040,Nivel de los estudios terminados
+PE040_F, No consta -1
+PL031,1 Situación en relación con la actividad definida por
+PL031_F, No consta -1
+PL015,1 ¿Ha trabajado alguna vez?
+PL015_F, N.A.(Si PL031 ≠ 1 o 2 o 3 o 4) -2
+PL020,1 ¿Buscó un trabajo activamente durante las 4 semanas anteriores?
+PL020_F, N.A.(Si PL031 = 1 o 2 o 3 o 4) -2
+PL025,¿Está disponible para trabajar en las próximas 2
+PL025_F, N.A.(Si PL020 = 2) -2
+PL040,Situación profesional
+PL040_F, N.A. (Si PL031 ≠ 1 o 2 o 3 o 4 y PL015 ≠ 1) -2
+PL051,2 Ocupación del empleo principal actual o del último
+PL051_F, N.A.(Si PL031 ≠ 1 o 2 o 3 o 4  y
+PL060,2  Número de horas trabajadas normalmente por semana en el trabajo principal
+PL060_F, 2 El número de horas varía (incluso no es posible calcular una media para 4 semanas) -6
+PL073,Número de meses en que trabajó como asalariado a tiempo completo durante el período de referencia
+PL073_F, No consta 1
+PL074,Número de meses en que trabajó como asalariado a tiempo parcial durante el período de referencia de la renta
+PL074_F, No consta 1
+PL075,Número de meses en que trabajó por cuenta propia a tiempo completo durante el período de referencia
+PL075_F, No consta 1
+PL076,Número de meses en que trabajó por cuenta propia a tiempo parcial durante el período de referencia de la renta
+PL076_F, No consta 1
+PL080, Número de meses en situación de desempleo
+PL080_F, No consta -1
+PL085,Número de meses jubilado durante el período de
+PL085_F, No consta -1
+PL086,Número de meses incapacitado permanente para trabajar durante el período de referencia de la renta
+PL086_F, No consta -1
+PL087,Número de meses en los que ha estudiado durante
+PL087_F, No consta -1
+PL089, Número de meses dedicado a las labores del hogar cuidado de niños etc. durante el período de referencia de la renta
+PL089_F, No consta -1
+PL090, Número de meses en otra clase de inactividad económica durante el período de referencia de la renta
+PL090_F, No consta -1
+PL100,Número total de horas normalmente trabajadas en
+PL100_F, N.A.(La persona no tiene segundo trabajo o
+PL111A, Actividad del establecimiento del que depende o
+PL111A_F,N.A.(Si PL031 ≠ 1 o 2 o 3 o 4) -2
+PL120,Motivo para trabajar menos de 30 horas (en trabajo
+PL120_F, N.A.(Si PL031 ≠ 1 o 2 o 3 o 4 o   PL060+PL100 no < 30) -2
+PL130,Número de personas que trabajan en el
+PL130_F, N.A.(Si PL031 ≠ 1 o 2 o 3 o 4) -2
+PL140,Tipo de contrato
+PL140_F, N.A.(Si PL040 ≠ 3) -2
+PL150,¿Supervisa/supervisaba o coordina/coordinaba el
+PL150_F, N.A.(Si PL040 ≠ 3) -2
+PL160,¿Ha cambiado de trabajo en los últimos 12 meses?
+PL160_F, N.A.(Si PL031 ≠ 1 o 2 o 3 o 4) -2
+PL170,Motivo para el cambio
+PL170_F, N.A.(Si PL060 ≠ 1) -2
+PL180,Cambio más reciente en la situación de actividad
+PL180_F, N.A.(Ningún cambio desde el año pasado) -2
+PL190,¿A qué edad empezó a trabajar regularmente?
+PL190_F, N.A.(No ha trabajado nunca) -2
+PL200,Número de años pasados en trabajo remunerado
+PL200_F, N.A.(No ha trabajado nunca) -2
+PL211A, Actividad principal en Enero
+PL211A_F,No consta -1
+PL211B, Actividad principal en Febrero
+PL211B_F,No consta -1
+PL211C, Actividad principal en Marzo
+PL211C_F,No consta -1
+PL211D, Actividad principal en Abril
+PL211D_F,No consta -1
+PL211E, Actividad principal en Mayo
+PL211E_F,No consta -1
+PL211F, Actividad principal en Junio
+PL211F_F,No consta -1
+PL211G, Actividad principal en Julio
+PL211G_F,No consta -1
+PL211H, Actividad principal en Agosto
+PL211H_F,No consta -1
+PL211I, Actividad principal en Septiembre
+PL211I_F,No consta -1
+PL211J, Actividad principal en Octubre
+PL211J_F,No consta -1
+PL211K, Actividad principal en Noviembre
+PL211K_F,No consta -1
+PL211L, Actividad principal en Diciembre
+PL211L_F,No consta -1
+PH010,Estado general de salud
+PH010_F, No consta -1
+PH020,¿Tiene alguna enfermedad o problema de salud crónicos?
+PH020_F, No consta -1
+PH030,Durante al menos los últimos 6 meses ¿en qué medida se ha visto limitado debido a un problema de salud para realizar las actividades que la gente habitualmente hace?
+PH030_F, No consta -1
+PH040,¿Durante los últimos 12 meses hubo alguna ocasión en la que realmente necesitó consultar a un médico (excepto dentista) pero no lo hizo?
+PH040_F, 2 N. A. (En ninguna ocasión ha necesitado asistencia
+PH050,Motivo principal para no consultar a un médico (excepto dentista)
+PH050_F, N.A.(Si PH040 ≠ 1) -2
+PH060,¿Durante los últimos 12 meses hubo alguna ocasión en la que realmente necesitó consultar a un dentista pero no lo hizo?
+PH060_F, 2 N. A. (En ninguna ocasión ha necesitado asistencia
+PH070,Motivo principal para no consultar a un dentista
+PH070_F, N.A.(Si PH060 ≠ 1) -2
+PY010N,112 Renta neta monetaria o cuasi monetaria del
+PY010N_F,No cumplimentado: variable bruta cumplimentada -5
+PY020N,112 Renta neta no monetaria del asalariado
+PY020N_F,No cumplimentado: variable bruta cumplimentada -5
+PY021N,112 Renta neta no monetaria del asalariado
+PY021N_F,No cumplimentado: variable bruta cumplimentada -5
+PY035N, Aportaciones a planes de pensiones privados individuales en el año anterior al de encuesta
+PY035N_F,No cumplimentado: variable bruta cumplimentada -5
+PY050N,112 Beneficios o pérdidas monetarios netos de trabajadores por cuenta propia (incluidos derechos de propiedad intelectual) en el año anterior al de encuesta
+PY050N_F,No cumplimentado: variable bruta cumplimentada -5
+PY080N,112 Rentas netas percibidas de esquemas privados de pensiones (distintos de los incluidos en SEEPROS)
+PY080N_F,No cumplimentado: variable bruta cumplimentada -5
+PY090N,112 Prestaciones por desempleo (netas)
+PY090N_F,No cumplimentado: variable bruta cumplimentada -5
+PY100N,112 Prestaciones por jubilación (netas)
+PY100N_F,No cumplimentado: variable bruta cumplimentada -5
+PY110N,112 Prestaciones por supervivencia (netas)
+PY110N_F,No cumplimentado: variable bruta cumplimentada -5
+PY120N,112 Prestaciones por enfermedad (netas)
+PY120N_F,No cumplimentado: variable bruta cumplimentada -5
+PY130N,112 Prestaciones por invalidez (netas)
+PY130N_F,No cumplimentado: variable bruta cumplimentada -5
+PY140N, Ayuda para estudios en el año anterior al de
+PY140N_F,No cumplimentado: variable bruta cumplimentada -5
+PY010G,112 Renta bruta monetaria o cuasi monetaria del
+PY010G_F,No cumplimentado: variable neta cumplimentada -5
+PY020G,112 Renta bruta no monetaria del asalariado en el año
+PY020G_F,No cumplimentado: variable neta cumplimentada -5
+PY021G,112 Renta bruta no monetaria del asalariado
+PY021G_F,No cumplimentado: variable neta cumplimentada -5
+PY030G,112 Cotizaciones sociales a cargo del empleador
+PY030G_F,6 No consta -1
+PY035G, Aportaciones a planes de pensiones privados individuales en el año anterior al de encuesta
+PY035G_F,No cumplimentado: variable neta cumplimentada -5
+PY050G,112 Beneficios o pérdidas monetarios brutos de trabajadores por cuenta propia (incluidos derechos de propiedad intelectual) en el año anterior al de encuesta
+PY050G_F,No cumplimentado: variable neta cumplimentada -5
+PY080G,112 Rentas brutas percibidas de esquemas privados de pensiones (distintos de los incluidos en SEEPROS)
+PY080G_F,No cumplimentado: variable neta cumplimentada -5
+PY090G,112 Prestaciones por desempleo (brutas)
+PY090G_F,No cumplimentado: variable neta cumplimentada -5
+PY100G,112 Prestaciones por jubilación (brutas)
+PY100G_F,No cumplimentado: variable neta cumplimentada -5
+PY110G,112 Prestaciones por supervivencia (brutas)
+PY110G_F,No cumplimentado: variable neta cumplimentada -5
+PY120G,112 Prestaciones por enfermedad (brutas)
+PY120G_F,No cumplimentado: variable neta cumplimentada -5
+PY130G,112 Prestaciones por invalidez (brutas)
+PY130G_F,No cumplimentado: variable neta cumplimentada -5
+PY140G, Ayuda para estudios en el año anterior al de la
+P78a_U,   En relación con las actividades que la gente hace
+PD020,  ¿Sustituye las ropas estropeadas por otras nuevas
+PD020_F, 2 No consta -1
+PD030,  ¿Tiene dos pares de zapatos (o un par adecuado
+PD030_F, 2 No consta -1
+PD050,  ¿Se reúne con amigos y/o familiares para comer o
+PD050_F, 2 No consta -1
+PD060,  ¿Participa regularmente en actividades de ocio tales
+PD060_F, 2 No consta -1
+PD070,  ¿Gasta una pequeña cantidad de dinero en usted
+PT220, Tipo de hogar cuando el encuestado era adolescente
+PT220_F,  Menos de 25 años o más de 59 años -6
+PT230, ¿Vivía usted con su madre en aquel momento?
+PT230_F,  Menos de 25 años o más de 59 años -6
+PT240, ¿Vivía usted con su padre en aquel momento?
+PT240_F,  Menos de 25 años o más de 59 años -6
+PT020, Número de adultos (de 18 o más años)
+PT020_F, Menos de 25 años o más de 59 años -6
+PT030, Número de niños (menores de 18 años)
+PT030_F, Menos de 25 años o más de 59 años -6
+PT040, Número de personas en el hogar trabajando
+PT040_F, Menos de 25 años o más de 59 años -6
+PT250, Atendiendo al número de habitantes ¿cómo era el
+PT250_F,  Menos de 25 años o más de 59 años -6
+PT210,Régimen de tenencia de la vivienda cuando el
+PT210_F, Menos de 25 años o más de 59 -6
+PT060, País de nacimiento del padre
+PT060_F, Menos de 25 años o más de 59 -6
+PT070, Nacionalidad del padre
+PT070_F, Menos de 25 años o más de 59 -6
+PT090, País de nacimiento de la madre
+PT090_F, Menos de 25 años o más de 59 -6
+PT100, Nacionalidad de la madre
+PT100_F, Menos de 25 años o más de 59 -6
+PT110,Nivel de los estudios del padre
+PT110_F, Menos de 25 años o más de 59 -6
+PT120,Nivel de los estudios de la madre
+PT120_F, Menos de 25 años o más de 59 -6
+PT130, Situación del padre en relación con la actividad
+PT130_F, Menos de 25 años y más de 59 -6
+PT140, ¿Supervisaba o coordinaba el trabajo de algún
+PT140_F, Menos de 25 años y más de 59 -6
+PT150,2 Ocupación principal del padre
+PT150_F, Menos de 25 años y más de 59 años -6
+PT160, Situación de la madre en relación con la actividad
+PT160_F, Menos de 25 años y más de 59 -6
+PT170, ¿Supervisaba o coordinaba el trabajo de algún
+PT170_F, Menos de 25 años y más de 59 -6
+PT180,2 Ocupación principal de la madre
+PT180_F, Menos de 25 años y más de 59 años -6
+PT190,Situación económica del hogar cuando el adulto era
+PT190_F, Menos de 25 años o más de 59 -6
+PT260,Cuando usted tenía 14 años ¿todos los niños de su
+PT260_F, Menos de 25 años o más de 59 -6
+PT270,Cuando usted tenía 14 años ¿todos los niños de su
+PT270_F, Menos de 25 años o más de 59 -6
+PT280,Cuando usted tenía 14 años ¿todos los niños de su
+PT280_F, Menos de 25 años o más de 59 -6

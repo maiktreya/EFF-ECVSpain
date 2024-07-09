@@ -1,0 +1,102 @@
+"p6_1c1_1 p.6.1. Miem. 1. Situacion laboral: empleado por cuenta ajena";;;
+"p6_1c2_1 p.6.1. Miem. 1. Situacion laboral: trabajador cuenta propia";;;
+"p6_1c3_1 p.6.1. Miem. 1. Situacion laboral: desempleado";;;
+"p6_1c4_1 p.6.1. Miem. 1. Situacion laboral: jubilado/jubilacion anticipada/prejubilado";;;
+"p6_1c5_1 p.6.1. Miem. 1. Situacion laboral: incapacitado para trabajar";;;
+"p6_1c6_1 p.6.1. Miem. 1. Situacion laboral: estudiante";"escolar o en formacion";;
+"p6_1c7_1 p.6.1. Miem. 1. Situacion laboral: dedicado a labores del hogar";;;
+"p6_1c8_1 p.6.1. Miem. 1. Situacion laboral: otra inactividad economica";;;
+"p2_1 p.2.1. Regimen de tenencia de su vivienda principal";(1,2,3,98,9);(Alquiler, Propiedad, Cesión gratuita, no sabe, no contesta);
+"p2_1a p.2.1a.Vivienda principal en propiedad es de precio libre";(1,2,3,98,99);(Libre, protección oficial , precio tasado, no sabe, no contesta);
+"p2_2 p.2.2. Via de obtencion de la propiedad de la vivienda principal";(1,2,3,97,98,99);(Compra, herencia, regalo/donación, otros-especificar, no sabe, no contesta);
+"p2_8 p.2.8. Tienen pagos pendientes de prestamos para compra de vivienda principal";(1,2,96,99);(Si, no, no sabe, no contesta);
+"p2_9_1 p.2.9. Prest 1. Tipo de prestamo.";(1,2, 3, 4, 5, 6, 7, 97, 98, 99);(hipotecario, otros prestamos con garantia real, personal, linea de credito, pago aplazado, anticipos, prestamos de familiares o amigos, otros, no sabe, no contesta);
+"p2_23 p.2.23. Alquilan alguna habitacion de esta vivienda";(1,2,98,99);(Si, no, No sabe, no contesta);
+"p2_32 p.2.32. Posesion de otras propiedades inmobiliarias";(1, 2, 98, 99);(Si, No, No sabe, no contesta);Nueva formulación
+"p2_35a_1 p.2.35a. Prop 1. Tipo de propiedad";(1, 2, 3, 4, 5, 6, 7, 8, 9, 97, 98, 99);(vivienda, nave industrial, solar/finca, garaje, tienda, oficina, hoteles, local, edificio de pisos (nueva opcion de respuesta), otros, no sabe, no contesta);
+"p2_35_1 p.2.35. Prop 1. Via de obtencion de la propiedad";(1, 2, 3, 97, 98 ,99);(Compra, herencia, regalo/donacion, otros, no sabe, no contesta);
+"p2_36_1 p.2.36. Prop 1. Ano de obtencion de la propiedad";;(1, 2);(No sabe, no contesta)
+"p2_42_1 p.2.42. Prop 1. Uso principal de la propiedad";(1, 2, 3, 4, 5, 6, 7, 97, 98, 99);(Terrenos agricoleas, vacaciones u otro uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_43a_1 p2.43a. Prop 1. Reciben ingreso por alquiler de esta propiedad";(1, 2, 98, 99);(Si, no, no sabe, no contesta)j;
+"p2_49_1 p.2.49. Prop 1. La compra se financio con prestamos";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p2_50_1 p.2.50. Prop 1. Tienen pagos pendientes de prestamos para compra de esta prop.";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p2_35a_2 p.2.35a. Prop 2. Tipo de propiedad";(1, 2, 3, 4, 5, 6, 7, 8, 9, 97, 98, 99);(vivienda, nave industrial, solar/finca, garaje, tienda, oficina, hoteles, local, edificio de pisos (nueva opcion de respuesta), otros, no sabe, no contesta);
+"p2_35_2 p.2.35. Prop 2. Via de obtencion de la propiedad";(1, 2, 3, 97, 98 ,99);(Compra, herencia, regalo/donacion, otros, no sabe, no contesta);
+"p2_42_2 p.2.42. Prop 2. Uso principal de la propiedad";(1, 2, 3, 4, 5, 6, 7, 97, 98, 99);(Terrenos agricoleas, vacaciones u otro uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_43a_2 p2.43a. Prop 2. Reciben ingreso por alquiler de esta propiedad";(1, 2, 98, 99);(Si, no, no sabe, no contesta)j;
+"p2_49_2 p.2.49. Prop 2. La compra se financio con prestamos";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p2_50_2 p.2.50. Prop 2. Tienen pagos pendientes de prestamos para compra de esta prop.";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p2_35a_3 p.2.35a. Prop 3. Tipo de propiedad";(1, 2, 3, 4, 5, 6, 7, 8, 9, 97, 98, 99);(vivienda, nave industrial, solar/finca, garaje, tienda, oficina, hoteles, local, edificio de pisos (nueva opcion de respuesta), otros, no sabe, no contesta);
+"p2_35_3 p.2.35. Prop 3. Via de obtencion de la propiedad";(1, 2, 3, 97, 98 ,99);(Compra, herencia, regalo/donacion, otros, no sabe, no contesta);
+"p2_42_3 p.2.42. Prop 3. Uso principal de la propiedad";(1, 2, 3, 4, 5, 6, 7, 97, 98, 99);(Terrenos agricoleas, vacaciones u otro uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_43a_3 p2.43a. Prop 3. Reciben ingreso por alquiler de esta propiedad";(1, 2, 98, 99);(Si, no, no sabe, no contesta)j;
+"p2_49_3 p.2.49. Prop 3. La compra se financio con prestamos";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p2_50_3 p.2.50. Prop 3. Tienen pagos pendientes de prestamos para compra de esta prop.";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p2_35a_4 p.2.35a.4. En su mayoria tipo de propiedades";(1, 2,3, 4, 5, 6, 7, 8, 9, 97, 98, 99);(vivienda, nave industrial/almacen, solar/finca, garaje, tienda, oficina, hoteles, local edificio de pisos, otros, no sabe, no contesta);
+"p2_35_4 p.2.35.4. Via de obtencion de la propiedad";(1, 2, 3, 97, 98) ;(Compra, herenccia, regalo, otros, no sabe, no contesta);
+"p2_42s1_4 p.2.42.4.s1. Uso principal de estas propiedades";(1m, 2m, 3m, 4m, 5m, 6m, 7m, 97, 98, 99);(terrenos agricolas, vacaciones u otros uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);(en la ecuesta solo sale esta primera pregunta)
+"p2_42s2_4 p.2.42.4.s2. Uso principal de estas propiedades";(1m, 2m, 3m, 4m, 5m, 6m, 7m, 97, 98, 99);(terrenos agricolas, vacaciones u otros uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_42s3_4 p.2.42.4.s3. Uso principal de estas propiedades";(1m, 2m, 3m, 4m, 5m, 6m, 7m, 97, 98, 99);(terrenos agricolas, vacaciones u otros uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_42s4_4 p.2.42.4.s4. Uso principal de estas propiedades";(1m, 2m, 3m, 4m, 5m, 6m, 7m, 97, 98, 99);(terrenos agricolas, vacaciones u otros uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_42s5_4 p.2.42.4.s5. Uso principal de estas propiedades";(1m, 2m, 3m, 4m, 5m, 6m, 7m, 97, 98, 99);(terrenos agricolas, vacaciones u otros uso propio privado, uso profesional propio, alquiler/arrendamiento, cesion gratuita, desocupada, futura vivienda, otros, no sabe, no contesta);
+"p2_43a_4 p.2.43a.4. Reciben ingreso por alquiler de estas propiedades";(1, 2, -1, -2);(Si, no, no sabe, no consesta);
+"p2_43_4 p.2.43.4. Ingresos mensuales por alquiler de esta propiedad.";;;
+"p2_50_4 p.2.50.4. Tienen deudas pendientes de prestamos por la compra de estas prop.";;;
+"p4_101 p.4.101. El hogar posee algun negocio gestionado por algun miembro del hogar";(1, 2, 98, 99);(Si no, no sabe, no contesta);
+"p4_18 p.4.18. Poseen acciones o participaciones en sociedades que no coticen en bolsa";(1, 2, 98, 99);(si, no , no sabe, no contesta);
+"p4_10 p.4.10. Poseen acciones de empresas que coticen en bolsa";(1, 2, 98, 99);(Si, no , no sabe, no contesta);
+"p4_12 p.4.12. Poseen acciones de la empresa en que trabaja algun miembro del hogar";(1, 2, 98, 99);(Si, no , no sabe, no contesta);
+"p4_27 p.4.27. Poseen participaciones en fondos de inversion u otras IIC";(1, 2, 98, 99);(si, no, no sabe, no contesta);
+"p4_29_1 p.4.29. Fondo 1. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_2 p.4.29. Fondo 2. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_3 p.4.29. Fondo 3. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_4 p.4.29. Fondo 4. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_5 p.4.29. Fondo 5. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_6 p.4.29. Fondo 6. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_7 p.4.29. Fondo 7. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_8 p.4.29. Fondo 8. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_9 p.4.29. Fondo 9. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_29_10 p.4.29. Fondo 10. Tipo de inversion";(2, 3, 4, 98, 99);(fondos de ivnersion mobiliarios (FIM), fondos de inversion inmobiliarios, otroas instituciones de inversion colectiva de valores mobiliarios, no sabe, no contesta);
+"p4_41 p.4.41. Poseen alguna cartera gestionada";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p4_42 p.4.42. La cartera incluye algun activo real o financiero no mencionado antes";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p4_39 p.4.39. Poseen otros activos financieros como opciones";(1, 2, 98,99);(si, no, no sabe, no contesta);
+"p5_1 p.5.1. Estan adscritos a algun tipo de plan de pensiones";(1, 2, 98,99);(si, no, no sabe, no contesta);
+"p7_1 p.7.1. Recibieron ingresos por alquileres en 2016";(1, 2, 98, 99);(Si, no, no sabe, no contesta);
+"p1_2b_1 p1.2b.1. Miembro 1. Ano de nacimiento";;;
+"p1_2d_1 p1.2d. Miembro 1. Edad";;;
+"p2_3 p.2.3. Ano en que obtuvieron la propiedad de la vivienda principal";;;
+"p2_5 p.2.5. Valor actual de la vivienda principal";;(-1,-2) (no sabe,no contesta);
+"p2_24 p.2.24. Ingresos mensuales por el alquiler de habitaciones en la vivienda";;(1, 2);(No sabe, no contesta)
+"p2_33 p.2.33. Numero de otras propiedades inmobiliarias que poseen";;(1, 2);(No sabe, no contesta)
+"p2_37_1 p.2.37. Prop 1. Porcentaje de la propiedad que pertenece al hogar";;(1, 2);(No sabe, no contesta)
+"p2_39_1 p.2.39. Prop 1. Valor actual de la propiedad";;;
+"p2_43_1 p.2.43. Prop 1. Ingresos mensuales por alquiler de esta propiedad";;(1, 2);(No sabe, no contesta)
+"p2_36_2 p.2.36. Prop 2. Ano de obtencion de la propiedad";;(1, 2);(No sabe, no contesta)
+"p2_37_2 p.2.37. Prop 2. Porcentaje de la propiedad que pertenece al hogar";;(1, 2);(No sabe, no contesta)
+"p2_43_2 p.2.43. Prop 2. Ingresos mensuales por alquiler de esta propiedad";;(1, 2);(No sabe, no contesta)
+"p2_36_3 p.2.36. Prop 3. Ano de obtencion de la propiedad";;(1, 2);(No sabe, no contesta)
+"p2_37_3 p.2.37. Prop 3. Porcentaje de la propiedad que pertenece al hogar";;(1, 2);(No sabe, no contesta)
+"p2_43_3 p.2.43. Prop 3. Ingresos mensuales por alquiler de esta propiedad";;(1, 2);(No sabe, no contesta)
+"p2_55_4 p.2.55.4. Cantidad total que deben por prestamos para compra de estas prop.";;;
+"p4_24 p.4.24. Valor de la cartera de acciones no cotizadas y participaciones";;;
+"p4_25 p.4.25. Ingresos anuales por dividendos de acciones no cot. y participaciones";;;
+"p4_13 p.4.13. Porcentaje del valor de la cartera que suponen estas acciones cotizadas";;;
+"p4_15 p.4.15. Valor de la cartera de acciones cotizadas";;;
+"p4_16 p.4.16. Ingresos anuales por dividendos de acciones cotizadas";;;
+"p4_28a p.4.28a. Valor total de la cartera en fondos de inversion";;;
+"p4_31_1 p.4.31. Fondo 1. Valor total de su cartera en este fondo";;;
+"p4_31_2 p.4.31. Fondo 2. Valor total de su cartera en este fondo";;;
+"p4_31_3 p.4.31. Fondo 3. Valor total de su cartera en este fondo";;;
+"p4_31_4 p.4.31. Fondo 4. Valor total de su cartera en este fondo";;;
+"p4_31_5 p.4.31. Fondo 5. Valor total de su cartera en este fondo";;;
+"p4_31_6 p.4.31. Fondo 6. Valor total de su cartera en este fondo";;;
+"p4_31_7 p.4.31. Fondo 7. Valor total de su cartera en este fondo";;;
+"p4_31_8 p.4.31. Fondo 8. Valor total de su cartera en este fondo";;;
+"p4_31_9 p.4.31. Fondo 9. Valor total de su cartera en este fondo";;;
+"p4_31_10 p.4.31. Fondo 10. Valor total de su cartera en este fondo";;;
+"p4_43 p.4.43. Valor de estos activos adicionales en carteras gestionadas";;;
+"p4_40 p.4.40. Ingresos anuales proporcionados por otros activos financieros";;;
+"p5_7_0 p.5.7.0. Valor actualizado de todos los planes de pensiones (excl. mut.)";;;
+"p5_1a  p5.1a. N de planes de pensiones a los que estan adscritos";;;
+"p7_2 p.7.2. Importe recibido por alquileres durante el ano 2016";;;
+"h_2017 Identificador de hogar";;;
