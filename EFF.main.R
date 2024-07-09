@@ -9,7 +9,7 @@ c("LIBRARY/my_functions.R", "LIBRARY/widgets.R") %>% sapply(source)
 ## GLOBAL VARIABLES DECLARATION
 start_time <- Sys.time()
 wealth_filters <- wealth_filters2 <- wealth_filters3 <- wealth_filters4 <- wealth_filters5 <- wealth_filters6 <- wealth_filters7 <- wealth_filters8 <- alt_results <- gini_fin_list <- gini_val_list <- data.table()
-years <- c(2002, 2005, 2008, 2011, 2014, 2017, 2020)
+years <- c( 2011, 2014, 2017, 2020)
 reduced <- NA
 
 ## STRUCTURED LOOP OVER SURVEYS WITH MEMORY CLEANING EACH ITERATION, FIRST INCLUDING ALL PEOPLE, THEN REDUCED TO THOSE WHERE VARS ARE > 0
@@ -25,7 +25,7 @@ for (reduced in c(FALSE, TRUE)) {
 
         ## PERFORM ANALYSIS
         source("TRANSFORMERS/EFF-OUT_main.R") # GENERAL MEANS
-        source("TRANSFORMERS/EFF-OUT_filters.R") # FILTERS BY USE AND ORIGIN OF PROPERTY
+        # source("TRANSFORMERS/EFF-OUT_filters.R") # FILTERS BY USE AND ORIGIN OF PROPERTY
         source("TRANSFORMERS/EFF-OUT_filters2.R") # FILTERS BY CLASS AND AGE
 
         ## CLEAN MEMORY OF INNECESARY VARIABLES
