@@ -3,9 +3,9 @@ c("dplyr", "survey", "tidyr", "httr") %>% sapply(library, character.only = T)
 c("lib/my_functions.R", "lib/widgets.R") %>% sapply(source)
 
 ### PARAMETERS AND VARIABLES TO INITIALIZE
-mode <- T
-reduced <- F
-class_binary <- F
+mode <- TRUE
+reduced <- FALSE
+class_binary <- FALSE
 geogr <- ""
 ft_results <- c()
 year_bind <- c()
