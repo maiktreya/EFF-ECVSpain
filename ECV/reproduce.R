@@ -6,12 +6,12 @@ library(stringr) # For string manipulation
 
 # define parameters
 quantile_cuts <- c(0.25, 0.5, 0.75, 0.9)
-sel_year <- "22" # set year
+sel_year <- "07" # set year
 
 #  Load the datasets
 ipc <- readxl::read_xlsx("DATASETS/ECV/IPC.xlsx") %>% data.table()
-datos_hogar <- fread(paste0("DATASETS/ECV/esudb", sel_year, "d.csv")) # Household-level data
-detalle_hog <- fread(paste0("DATASETS/ECV/esudb", sel_year, "h.csv")) # Additional household details
+datos_hogar <- paste0("DATASETS/ECV/esudb", sel_year, "d.csv") %>% fread() # Household-level data
+detalle_hog <- paste0("DATASETS/ECV/esudb", sel_year, "h.csv") %>% fread() # Additional household details
 
 # Create `new_iden` for household data
 datos_hogar[, new_iden := as.numeric(DB030)] # Create `new_iden` in datos_hogar
@@ -23,7 +23,9 @@ merged_households <- merge(
   detalle_hog, # Additional household details
   by = "new_iden", # Merge key (household ID)
   all.x = TRUE # Keep all rows from datos_hogar (left join)
-)[!is.na(DB090)][, renta_real := 0][, renta_real := vhRentaa / ipc[AÑO_RENTA == as.numeric(paste0(20, sel_year))]$deflactor_IPC]
+)
+merged_households[!is.na(DB090)]
+merged_households[, renta_real := 0][, renta_real := vhRentaa / ipc[AÑO_RENTA == as.numeric(paste0(20, sel_year))]$deflactor_IPC]
 
 # Create the survey design object
 survey_total <- svydesign(
