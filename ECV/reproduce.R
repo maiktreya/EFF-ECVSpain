@@ -41,18 +41,14 @@ quantiles <- data.table(tramo = quantile_cuts, renta_nom = quantiles_renta, rent
 renta90 <- svymean(~renta_real, design = subset(survey_total, renta_real > quantiles[tramo == "0.9", renta_real]), na.rm = TRUE)[1]
 renta50 <- svymean(~renta_real, design = subset(survey_total, renta_real > quantiles[tramo == "0.5", renta_real]), na.rm = TRUE)[1]
 
+# Implied ratio quantiles
+ratio <- quantiles[tramo == "0.9", renta_real] / quantiles[tramo == "0.5", renta_real] %>% round(3) # ratio cuantiles
+ratios <- data.table(ratio_quantiles = ratio, ratio_medias = round(renta90 / renta50, 3)) # Implied ratio mean from quantiles
+
 # Comprobar ine
 rentaINE <- svymean(~vhRentaa, design = survey_total, na.rm = TRUE)[1] / ipc[AÑO_RENTA == as.numeric(paste0(20, sel_year))]$deflactor_IPC
 
-# Implied ratio quantiles
-ratio <- quantiles[tramo == "0.9", renta_real] / quantiles[tramo == "0.5", renta_real] %>% round(3) # ratio cuantiles
-
-# Implied ratio mean from quantiles
-ratio_medias <- renta90 / renta50 %>% round(3)
-
 # Show results
-print(ratio)
-print(ratio_medias)
-print(rentaINE) # deber ser 32216 https://www.ine.es/jaxiT3/Datos.htm?t=9948
-print(ratio)
-print(quantiles)
+ratios %>% print()
+paste0("Renta:", round(rentaINE)) %>% print() # deber ser 32216 para 2022
+quantiles %>% print()
