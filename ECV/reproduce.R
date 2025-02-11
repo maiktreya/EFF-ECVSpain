@@ -51,6 +51,7 @@ ratio <- quantiles[tramo == "0.9", renta_real] / quantiles[tramo == "0.5", renta
 ratio_medias <- renta90 / renta50 %>% round(3)
 
 # Show results
+print(ratio)
 print(ratio_medias)
 print(rentaINE) # deber ser 32216 https://www.ine.es/jaxiT3/Datos.htm?t=9948
 print(ratio)
