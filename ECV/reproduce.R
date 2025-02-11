@@ -38,8 +38,8 @@ quantiles_renta_real <- svyquantile(~renta_real, design = survey_total, quantile
 quantiles <- data.table(tramo = quantile_cuts, renta_nom = quantiles_renta, renta_real = quantiles_renta_real)
 
 # Renta media del tramo
-renta90 <- svymean(~vhRentaa, design = subset(survey_total, renta_real > quantiles[tramo == "0.9", renta_real]), na.rm = TRUE)[1]
-renta50 <- svymean(~vhRentaa, design = subset(survey_total, renta_real > quantiles[tramo == "0.5", renta_real]), na.rm = TRUE)[1]
+renta90 <- svymean(~renta_real, design = subset(survey_total, renta_real > quantiles[tramo == "0.9", renta_real]), na.rm = TRUE)[1]
+renta50 <- svymean(~renta_real, design = subset(survey_total, renta_real > quantiles[tramo == "0.5", renta_real]), na.rm = TRUE)[1]
 
 # Comprobar ine
 rentaINE <- svymean(~vhRentaa, design = survey_total, na.rm = TRUE)[1] / ipc[AÑO_RENTA == as.numeric(paste0(20, sel_year))]$deflactor_IPC
