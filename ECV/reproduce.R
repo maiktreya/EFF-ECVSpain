@@ -6,7 +6,7 @@ library(stringr) # For string manipulation
 
 # define parameters
 quantile_cuts <- c(0.25, 0.5, 0.75, 0.9)
-sel_year <- "22"
+sel_year <- "22" # set year
 
 #  Load the datasets
 ipc <- readxl::read_xlsx("DATASETS/ECV/IPC.xlsx") %>% data.table()
@@ -28,7 +28,7 @@ merged_households <- merge(
 # Create the survey design object
 survey_total <- svydesign(
   ids = ~1, # No clustering
-  data = final_data, # Final dataset
+  data = merged_households, # Final dataset
   weights = ~DB090 # Weights column
 )
 
@@ -40,5 +40,12 @@ quantiles <- data.table(tramo = quantile_cuts, renta_nom = quantiles_renta, rent
 # Implied ratio
 ratio <- quantiles[tramo == "0.9", renta_real] / quantiles[tramo == "0.5", renta_real] %>% round(3)
 
+# Comprobar ine
+
+rentaINE <- svymean(~vhRentaa, design = survey_total, na.rm = TRUE)
+
+# Show results
+
+print(rentaINE) # deber ser 32216
 print(ratio)
 print(quantiles)
