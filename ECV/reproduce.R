@@ -41,11 +41,9 @@ quantiles <- data.table(tramo = quantile_cuts, renta_nom = quantiles_renta, rent
 ratio <- quantiles[tramo == "0.9", renta_real] / quantiles[tramo == "0.5", renta_real] %>% round(3)
 
 # Comprobar ine
-
 rentaINE <- svymean(~vhRentaa, design = survey_total, na.rm = TRUE)
 
 # Show results
-
 print(rentaINE) # deber ser 32216 https://www.ine.es/jaxiT3/Datos.htm?t=9948
 print(ratio)
 print(quantiles)
